@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speciation-sim"
+version = "0.1.0"
+dependencies = ["numpy", "pandas"]
+
+[project.scripts]
+speciation-sim = "speciation_sim.cli:main"
+
