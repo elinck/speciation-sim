@@ -41,7 +41,7 @@ speciation-sim \
 	--gen-max <int> \
 	--m <float> \ 
 	--interval <int> \
-
+	--out <Path> \
 ```
 
 - `--help`: Display help menu. 
@@ -52,6 +52,8 @@ speciation-sim \
 - `--gen-max`: The maximium number of generations to run the simulation. 
 - `--m`: Migration rate (see `--model` above).
 - `--interval`: Number of generations spent in a given gene flow regime before alternating.  
+- `--out`: Path for output `.csv` file. Defaults to `./results.csv`. 
+
 
 ## References
 
