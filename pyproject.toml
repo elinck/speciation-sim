@@ -10,3 +10,5 @@ dependencies = ["numpy", "pandas"]
 [project.scripts]
 speciation-sim = "speciation_sim.cli:main"
 
+[tool.setuptools]
+packages = ["speciation_sim"]
