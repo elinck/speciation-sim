@@ -1,0 +1,4 @@
+regime,N,mu,s,m,interval,speciation_gen,completed
+parapatry,500,1e-06,0.1,0.5,,7669,True
+periodic,500,1e-06,0.1,0.5,1000,8793,True
+periodic,50,1e-06,0.1,0.5,1000,269918,True
