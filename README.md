@@ -1,6 +1,10 @@
 # speciation-sim
 
-Command-line simulations of speciation via fixation of BDMI loci. 
+Command-line simulations of speciation via Bateson-Dobzhansky-Müller incompatibilties. `speciation-sim` begins with a population of $2N$ genomes, each homozygous at two unlinked loci ($AA$ and $BB$) that are subject to unidirectional mutation to alleles $a$ and $b$ at rate $\mu$. Following Gavrilets 2003 (see Figure 1 below), alleles $a$ and $B$ are incompatible (i.e. individuals that carry them have zero fitness). Reproductive isolation occurs when alleles $a$ and $b$ are fixed in the focal population, as any cross between this population and individuals carrying ancestral genotypes would be inviable. 
+
+Under the allopatric model, alleles are randomly sampled from parent genomes each generation, resulting in $N$ new genpotypes at both loci. A selection coefficient $s$ influences the relative fitness (sampling probability) of mutant alleles (e.g., $w(a) = 1 + s$); speciation can thus proceed either purely by mutation and drift or via positive selection on BDMI loci. Under the parapatric model, a proportion $m$ of offspring alleles each generation originate in a migrant population fixed for the ancestral genotype. Under the periodic gene flow model, allopatric and parapatric regimes alternate every `<interval>`  generations. 
+
+![*Figure 1 from Gavrilets 2003*](misc/gavrilets.png){width=50%}
 
 ## Installation
 
