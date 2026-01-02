@@ -4,8 +4,12 @@ Command-line simulations of speciation via Bateson-Dobzhansky-Müller incompatib
 
 Under the allopatric model, alleles are randomly sampled from parent genomes each generation, resulting in $N$ new genpotypes at both loci. A selection coefficient $s$ influences the relative fitness (sampling probability) of mutant alleles (e.g., $w(a) = 1 + s$); speciation can thus proceed either purely by mutation and drift or via positive selection on BDMI loci. Under the parapatric model, a proportion $m$ of offspring alleles each generation originate in a migrant population fixed for the ancestral genotype. Under the periodic gene flow model, allopatric and parapatric regimes alternate every `<interval>`  generations. 
 
-<img src="misc/gavrilets.png" alt="Figure 1 from Gavrilets 2003" width="50%">
-
+<figure align="center">
+  <img src="misc/gavrilets.png" alt="Figure 1 from Gavrilets 2003" width="50%">
+  <figcaption>
+    <em>Figure 1.</em> Gavrilets (2003).
+  </figcaption>
+</figure>
 ## Installation
 
 Clone the repository and install in editable mode:
