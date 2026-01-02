@@ -10,6 +10,7 @@ Under the allopatric model, alleles are randomly sampled from parent genomes eac
     <em>Figure 1.</em> Gavrilets (2003).
   </figcaption>
 </figure>
+
 ## Installation
 
 Clone the repository and install in editable mode:
